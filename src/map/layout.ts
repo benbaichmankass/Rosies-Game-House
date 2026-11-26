@@ -127,6 +127,7 @@ export const SPOTS: Record<SpotId, Spot> = {
   'bunny-wall': { trigger: P(2, 23), objects: tiles(R(1, 19, 1, 9)), face: 'left', label: 'Bunny wall' },
   'fps-wall': { trigger: P(14, 33), objects: tiles(R(11, 34, 9, 1)), face: 'down', label: 'Back wall' },
   bed: { trigger: P(16, 23), objects: tiles(R(15, 20, 2, 3)), face: 'up', label: 'Bed' },
+  'bedroom-wardrobe': { trigger: P(20, 22), objects: tiles(R(20, 20, 2, 2)), face: 'up', label: 'Wardrobe' },
   'living-floor': { trigger: P(18, 17), objects: [P(19, 17)], face: 'right', label: 'Roomba' },
   'living-windows': { trigger: P(11, 9), objects: [P(10, 8), P(10, 9), P(10, 16), P(10, 17)], face: 'left', label: 'Windows' },
   'kitchen-cabinets': { trigger: P(26, 3), objects: tiles(R(22, 2, 9, 1)), face: 'up', label: 'Cabinets' },
