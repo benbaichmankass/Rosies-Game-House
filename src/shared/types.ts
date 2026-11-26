@@ -5,6 +5,7 @@ export type RoomId = 'bedroom' | 'living-room' | 'kitchen' | 'bathroom' | 'yard'
 /** Named launch spots on the house map (see src/map/layout.ts). */
 export type SpotId =
   | 'bed'
+  | 'bedroom-wardrobe'
   | 'living-floor'
   | 'living-windows'
   | 'street-door'
